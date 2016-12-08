@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html>
 <head>
 
-  <title>gold-email-input tests</title>
+  <title>plate-number-tr tests</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,26 +24,26 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script src="../../iron-test-helpers/test-helpers.js"></script>
   <script src="../../iron-test-helpers/mock-interactions.js"></script>
 
-  <link rel="import" href="../gold-email-input.html">
+  <link rel="import" href="../plate-number-tr.html">
 
 </head>
 <body>
 
   <test-fixture id="basic">
     <template>
-      <gold-email-input auto-validate required error-message="error"></gold-email-input>
+      <plate-number-tr auto-validate required error-message="error"></plate-number-tr>
     </template>
   </test-fixture>
 
   <test-fixture id="custom-regex">
     <template>
-      <gold-email-input auto-validate required regex='.*cat' error-message="error"></gold-email-input>
+      <plate-number-tr auto-validate required regex='.*cat' error-message="error"></plate-number-tr>
     </template>
   </test-fixture>
 
   <test-fixture id="no-regex">
     <template>
-      <gold-email-input auto-validate required regex='' error-message="error"></gold-email-input>
+      <plate-number-tr auto-validate required regex='' error-message="error"></plate-number-tr>
     </template>
   </test-fixture>
 

@@ -1,6 +1,6 @@
 {
-  "name": "gold-email-input",
-  "version": "1.0.9",
+  "name": "plate-number-tr",
+  "version": "0.0.1",
   "description": "An email input field",
   "authors": [
     "The Polymer Authors"
@@ -11,14 +11,14 @@
     "gold",
     "input"
   ],
-  "main": "gold-email-input.html",
+  "main": "plate-number-tr.html",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/gold-email-input.git"
+    "url": "git://github.com/salimkayabasi/plate-number-tr.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/gold-email-input",
+  "homepage": "https://github.com/salimkayabasi/plate-number-tr",
   "ignore": [],
   "dependencies": {
     "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.0.0",

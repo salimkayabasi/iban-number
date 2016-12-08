@@ -2,7 +2,7 @@
 <!---
 
 This README is automatically generated from the comments in these files:
-gold-email-input.html
+plate-number-tr.html
 
 Edit those files, and our readme bot will duplicate them over here!
 Edit this file, and the bot will squash your changes :)
@@ -12,24 +12,24 @@ thing! https://github.com/PolymerLabs/tedium/issues
 
 -->
 
-[![Build status](https://travis-ci.org/PolymerElements/gold-email-input.svg?branch=master)](https://travis-ci.org/PolymerElements/gold-email-input)
+[![Build status](https://travis-ci.org/PolymerElements/plate-number-tr.svg?branch=master)](https://travis-ci.org/PolymerElements/plate-number-tr)
 
-_[Demo and API docs](https://elements.polymer-project.org/elements/gold-email-input)_
+_[Demo and API docs](https://elements.polymer-project.org/elements/plate-number-tr)_
 
 
-##&lt;gold-email-input&gt;
+##&lt;plate-number-tr&gt;
 
-`<gold-email-input>` is a single-line text field with Material Design styling
+`<plate-number-tr>` is a single-line text field with Material Design styling
 for entering an email address.
 
 ```html
-<gold-email-input></gold-email-input>
+<plate-number-tr></plate-number-tr>
 ```
 
 It may include an optional label, which by default is "Email".
 
 ```html
-<gold-email-input label="your email address"></gold-email-input>
+<plate-number-tr label="your email address"></plate-number-tr>
 ```
 
 ### Validation
