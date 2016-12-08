@@ -1,4 +1,4 @@
-<!-- Instructions: https://github.com/PolymerElements/plate-number-tr/CONTRIBUTING.md#filing-issues -->
+<!-- Instructions: https://github.com/PolymerElements/iban-number/CONTRIBUTING.md#filing-issues -->
 ### Description
 <!-- Example: The `paper-foo` element causes the page to turn pink when clicked. -->
 

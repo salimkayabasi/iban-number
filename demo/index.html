@@ -15,10 +15,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
 
-  <title>plate-number-tr demo</title>
+  <title>iban-number demo</title>
 
   <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../plate-number-tr.html">
+  <link rel="import" href="../iban-number.html">
   <link rel="import" href="../../paper-styles/demo-pages.html">
 
 </head>
@@ -26,22 +26,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <div class="vertical-section-container centered">
     <h4>Standard</h4>
     <div class="vertical-section">
-      <plate-number-tr></plate-number-tr>
-      <plate-number-tr label="Auto-validating" required auto-validate></plate-number-tr>
+      <iban-number></iban-number>
+      <iban-number label="Auto-validating" required auto-validate></iban-number>
     </div>
 
     <h4>Pre-validated</h4>
     <div class="vertical-section">
-      <plate-number-tr auto-validate value="batman@gotham.org"></plate-number-tr>
-      <plate-number-tr auto-validate value="not-a-thing.email"></plate-number-tr>
-      <plate-number-tr auto-validate label="custom regex, needs to ends in .cat"
+      <iban-number auto-validate value="batman@gotham.org"></iban-number>
+      <iban-number auto-validate value="not-a-thing.email"></iban-number>
+      <iban-number auto-validate label="custom regex, needs to ends in .cat"
           regex='^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+.cat$'
-          value="felix@meow.car"></plate-number-tr>
+          value="felix@meow.car"></iban-number>
     </div>
 
     <h4>Custom error message, auto-validates on blur</h4>
     <div class="vertical-section">
-      <plate-number-tr required auto-validate error-message="Please enter a valid email" label="Email contact"></plate-number-tr>
+      <iban-number required auto-validate error-message="Please enter a valid email" label="Email contact"></iban-number>
     </div>
   </div>
 </body>

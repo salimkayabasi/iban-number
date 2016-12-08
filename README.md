@@ -2,7 +2,7 @@
 <!---
 
 This README is automatically generated from the comments in these files:
-plate-number-tr.html
+iban-number.html
 
 Edit those files, and our readme bot will duplicate them over here!
 Edit this file, and the bot will squash your changes :)
@@ -12,24 +12,24 @@ thing! https://github.com/PolymerLabs/tedium/issues
 
 -->
 
-[![Build status](https://travis-ci.org/PolymerElements/plate-number-tr.svg?branch=master)](https://travis-ci.org/PolymerElements/plate-number-tr)
+[![Build status](https://travis-ci.org/PolymerElements/iban-number.svg?branch=master)](https://travis-ci.org/PolymerElements/iban-number)
 
-_[Demo and API docs](https://elements.polymer-project.org/elements/plate-number-tr)_
+_[Demo and API docs](https://elements.polymer-project.org/elements/iban-number)_
 
 
-##&lt;plate-number-tr&gt;
+##&lt;iban-number&gt;
 
-`<plate-number-tr>` is a single-line text field with Material Design styling
+`<iban-number>` is a single-line text field with Material Design styling
 for entering an email address.
 
 ```html
-<plate-number-tr></plate-number-tr>
+<iban-number></iban-number>
 ```
 
 It may include an optional label, which by default is "Email".
 
 ```html
-<plate-number-tr label="your email address"></plate-number-tr>
+<iban-number label="your email address"></iban-number>
 ```
 
 ### Validation

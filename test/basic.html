@@ -11,7 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html>
 <head>
 
-  <title>plate-number-tr tests</title>
+  <title>iban-number tests</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,26 +24,26 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script src="../../iron-test-helpers/test-helpers.js"></script>
   <script src="../../iron-test-helpers/mock-interactions.js"></script>
 
-  <link rel="import" href="../plate-number-tr.html">
+  <link rel="import" href="../iban-number.html">
 
 </head>
 <body>
 
   <test-fixture id="basic">
     <template>
-      <plate-number-tr auto-validate required error-message="error"></plate-number-tr>
+      <iban-number auto-validate required error-message="error"></iban-number>
     </template>
   </test-fixture>
 
   <test-fixture id="custom-regex">
     <template>
-      <plate-number-tr auto-validate required regex='.*cat' error-message="error"></plate-number-tr>
+      <iban-number auto-validate required regex='.*cat' error-message="error"></iban-number>
     </template>
   </test-fixture>
 
   <test-fixture id="no-regex">
     <template>
-      <plate-number-tr auto-validate required regex='' error-message="error"></plate-number-tr>
+      <iban-number auto-validate required regex='' error-message="error"></iban-number>
     </template>
   </test-fixture>
 
